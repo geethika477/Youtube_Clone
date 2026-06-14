@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <div class="header-left">
+            <button class="hamburger">
+                <i class="fas fa-bars"></i>
+            </button>
+            <a href="#" class="logo">
+                <img src="YT_LOGO.png" 
+                     alt="YouTube" class="yt-logo">
+            </a>
+        </div>
+
+        <div class="search-container">
+            <div class="search-bar">
+                <input type="text" placeholder="Search" class="search-input">
+                <button class="search-btn">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+            <button class="mic-btn" title="Search with your voice">
+                <i class="fas fa-microphone"></i>
+            </button>
+        </div>
+
+        <div class="header-right">
+            <button class="icon-btn"><i class="fas fa-video"></i></button>
+            <button class="icon-btn"><i class="fas fa-th"></i></button>
+            <button class="icon-btn notification-btn">
+                <i class="fas fa-bell"></i>
+                <span class="notification-count">9+</span>
+            </button>
+            <div class="profile">
+                <img src="red.jpeg" alt="Profile" class="profile-pic">
+            </div>
+        </div>
+    </header>
+
+    <div class="main-container">
+        <!-- SIDEBAR -->
+        <aside class="sidebar">
+            <a href="#" class="sidebar-item active"><i class="fas fa-home"></i><span>Home</span></a>
+            <a href="#" class="sidebar-item"><i class="fas fa-compass"></i><span>Explore</span></a>
+            <a href="#" class="sidebar-item"><i class="fas fa-fire"></i><span>Trending</span></a>
+            <a href="#" class="sidebar-item"><i class="fas fa-play-circle"></i><span>Subscriptions</span></a>
+            <div class="sidebar-divider"></div>
+            <a href="#" class="sidebar-item"><i class="fas fa-book"></i><span>Library</span></a>
+            <a href="#" class="sidebar-item"><i class="fas fa-history"></i><span>History</span></a>
+            <a href="#" class="sidebar-item"><i class="fas fa-clock"></i><span>Watch later</span></a>
+            <a href="#" class="sidebar-item"><i class="fas fa-thumbs-up"></i><span>Liked videos</span></a>
+            
+            <div class="sidebar-divider"></div>
+            <div class="sidebar-section-title">Subscriptions</div>
+            <a href="#" class="sidebar-item"><img src="https://picsum.photos/id/1015/24/24" class="channel-icon" alt=""><span>MrBeast</span></a>
+            <a href="#" class="sidebar-item"><img src="https://picsum.photos/id/201/24/24" class="channel-icon" alt=""><span>MKBHD</span></a>
+            <a href="#" class="sidebar-item"><img src="https://picsum.photos/id/237/24/24" class="channel-icon" alt=""><span>Veritasium</span></a>
+            <a href="#" class="sidebar-item"><img src="https://picsum.photos/id/64/24/24" class="channel-icon" alt=""><span>Lofi Girl</span></a>
+            <a href="#" class="sidebar-item"><img src="https://picsum.photos/id/180/24/24" class="channel-icon" alt=""><span>TED</span></a>
+        </aside>
+
+        <!-- MAIN CONTENT -->
+        <main class="content">
+            <div class="chips-container">
+                <div class="chip active">All</div>
+                <div class="chip">Mixes</div>
+                <div class="chip">Music</div>
+                <div class="chip">Gaming</div>
+                <div class="chip">Live</div>
+                <div class="chip">Computer programming</div>
+                <div class="chip">Recently uploaded</div>
+            </div>
+
+            <div class="video-grid">
+                <!-- Video Cards (same 9 as before) -->
+                <a href="https://www.youtube.com/watch?v=zRtGL0-5rg4" class="video-card">
+                    <div class="thumbnail-container">
+                        <img src="https://i.ytimg.com/vi/zRtGL0-5rg4/hqdefault.jpg" class="thumbnail" alt="">
+                        <div class="duration">42:57</div>
+                    </div>
+                    <div class="video-info">
+                        <div class="channel-avatar"><img src="https://picsum.photos/id/1015/36/36" alt=""></div>
+                        <div class="video-details">
+                            <h3 class="video-title">Last To Leave Grocery Store, Wins $250,000</h3>
+                            <p class="channel-name">MrBeast</p>
+                            <p class="video-meta">180M views • 1 month ago</p>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://www.youtube.com/watch?v=_gCXmKjDecU" class="video-card">
+                    <div class="thumbnail-container">
+                        <img src="https://i.ytimg.com/vi/_gCXmKjDecU/hqdefault.jpg" class="thumbnail" alt="">
+                        <div class="duration">16:28</div>
+                    </div>
+                    <div class="video-info">
+                        <div class="channel-avatar"><img src="https://picsum.photos/id/201/36/36" alt=""></div>
+                        <div class="video-details">
+                            <h3 class="video-title">WWDC 2026 Impressions: Yeah, That's About Right</h3>
+                            <p class="channel-name">Marques Brownlee</p>
+                            <p class="video-meta">3.2M views • 2 days ago</p>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://www.youtube.com/watch?v=GpQSUjNsNm0" class="video-card">
+                    <div class="thumbnail-container">
+                        <img src="https://i.ytimg.com/vi/GpQSUjNsNm0/hqdefault.jpg" class="thumbnail" alt="">
+                        <div class="duration">39:09</div>
+                    </div>
+                    <div class="video-info">
+                        <div class="channel-avatar"><img src="https://picsum.photos/id/1015/36/36" alt=""></div>
+                        <div class="video-details">
+                            <h3 class="video-title">I Survived 7 Days Stranded in the Arctic</h3>
+                            <p class="channel-name">MrBeast</p>
+                            <p class="video-meta">72M views • 11 days ago</p>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://www.youtube.com/watch?v=tz23G_UXCGA" class="video-card">
+                    <div class="thumbnail-container">
+                        <img src="https://i.ytimg.com/vi/tz23G_UXCGA/hqdefault.jpg" class="thumbnail" alt="">
+                        <div class="duration">34:17</div>
+                    </div>
+                    <div class="video-info">
+                        <div class="channel-avatar"><img src="https://picsum.photos/id/237/36/36" alt=""></div>
+                        <div class="video-details">
+                            <h3 class="video-title">Something is jamming GPS over Europe. Here's what we found</h3>
+                            <p class="channel-name">Veritasium</p>
+                            <p class="video-meta">6.9M views • 6 days ago</p>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://www.youtube.com/watch?v=9bZkp7q19f0" class="video-card">
+                    <div class="thumbnail-container">
+                        <img src="https://i.ytimg.com/vi/9bZkp7q19f0/hqdefault.jpg" class="thumbnail" alt="">
+                        <div class="duration">4:12</div>
+                    </div>
+                    <div class="video-info">
+                        <div class="channel-avatar"><img src="https://picsum.photos/id/180/36/36" alt=""></div>
+                        <div class="video-details">
+                            <h3 class="video-title">PSY - GANGNAM STYLE</h3>
+                            <p class="channel-name">officialpsy</p>
+                            <p class="video-meta">5.1B views • 12 years ago</p>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://www.youtube.com/watch?v=X4VbdwhkE10" class="video-card">
+                    <div class="thumbnail-container">
+                        <img src="https://i.ytimg.com/vi/X4VbdwhkE10/hqdefault.jpg" class="thumbnail" alt="">
+                        <div class="duration">LIVE</div>
+                    </div>
+                    <div class="video-info">
+                        <div class="channel-avatar"><img src="https://picsum.photos/id/64/36/36" alt=""></div>
+                        <div class="video-details">
+                            <h3 class="video-title">lofi hip hop radio 📚 - beats to relax/study to</h3>
+                            <p class="channel-name">Lofi Girl</p>
+                            <p class="video-meta">Live • Millions watching</p>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://www.youtube.com/watch?v=kS-CGkiPetQ" class="video-card">
+                    <div class="thumbnail-container">
+                        <img src="https://i.ytimg.com/vi/kS-CGkiPetQ/hqdefault.jpg" class="thumbnail" alt="">
+                        <div class="duration">29:54</div>
+                    </div>
+                    <div class="video-info">
+                        <div class="channel-avatar"><img src="https://picsum.photos/id/237/36/36" alt=""></div>
+                        <div class="video-details">
+                            <h3 class="video-title">Google Maps is unreasonably fast. Let me explain</h3>
+                            <p class="channel-name">Veritasium</p>
+                            <p class="video-meta">5.2M views • 11 days ago</p>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://www.youtube.com/watch?v=6Zy5VLcEbZc" class="video-card">
+                    <div class="thumbnail-container">
+                        <img src="https://i.ytimg.com/vi/6Zy5VLcEbZc/hqdefault.jpg" class="thumbnail" alt="">
+                        <div class="duration">37:00</div>
+                    </div>
+                    <div class="video-info">
+                        <div class="channel-avatar"><img src="https://picsum.photos/id/1015/36/36" alt=""></div>
+                        <div class="video-details">
+                            <h3 class="video-title">I Stranded 100 People In The Wilderness For $250,000</h3>
+                            <p class="channel-name">MrBeast</p>
+                            <p class="video-meta">123M views • 1 month ago</p>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://www.youtube.com/watch?v=AaMdXZMvT3w" class="video-card">
+                    <div class="thumbnail-container">
+                        <img src="https://i.ytimg.com/vi/AaMdXZMvT3w/hqdefault.jpg" class="thumbnail" alt="">
+                        <div class="duration">39:09</div>
+                    </div>
+                    <div class="video-info">
+                        <div class="channel-avatar"><img src="https://picsum.photos/id/1015/36/36" alt=""></div>
+                        <div class="video-details">
+                            <h3 class="video-title">Survive 30 Days On An Island With Your Ex, Win $250,000</h3>
+                            <p class="channel-name">MrBeast</p>
+                            <p class="video-meta">80M views • 3 weeks ago</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
